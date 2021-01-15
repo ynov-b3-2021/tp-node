@@ -1,0 +1,16 @@
+{
+  "name": "learnyounode",
+  "version": "1.0.0",
+  "description": "Le TD et les exos Node",
+  "main": "index.js",
+  "author": "Mathieu TUDISCO <mathieu@tudisco.fr>",
+  "license": "MIT",
+  "dependencies": {
+    "learnyounode": "^4.2.2"
+  },
+  "scripts": {
+    "menu" : "yarn learnyounode",
+    "verify" : "yarn learnyounode verify",
+    "print" : "yarn learnyounode print"
+  }
+}
