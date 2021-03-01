@@ -2,7 +2,7 @@ const net = require('net');
 
 const portNumber = process.argv[2];
 
-const zeroPad = number => number < 10 ? '0' + number : number;
+const zeroPad = number => number < 10 ? `0${number}` : number;
 
 const server = net.createServer((socket) => {
   const date = new Date();
