@@ -6,7 +6,7 @@ const [_node, _path, port] = process.argv;
 const server = http.createServer((req, res) => {
   if (req.method !== "POST") {
     res.writeHead(405);
-    res.end("Erreur 405");
+    res.end(`Erreur: La méthode ${req.method} n'est pas autorisée`);
     return;
   }
 
